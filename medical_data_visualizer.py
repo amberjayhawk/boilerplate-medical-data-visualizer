@@ -9,7 +9,7 @@ df = pd.read_csv("medical_examination.csv")
 # 2
 df["overweight"] = np.where((df["weight"] / ((df["height"] / 100) ** 2) > 25), 1, 0)
 df["overweight"]
-
+#hhh
 
 # 3
 
